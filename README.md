@@ -50,11 +50,11 @@ Las monedas caen o se mueven gracias a hilos secundarios.
 Se usan locks (mutex) para evitar condiciones de carrera.
 
 ### **Tecnologías**
-Python
-Pygame
-Threading
-Mutex / Lock
-Docker
+- Python
+- Pygame
+- Threading
+- Mutex / Lock
+- Docker
 
 ### **Ejecución local**
 ```
@@ -87,12 +87,12 @@ Los resultados se muestran en una interfaz creada con Streamlit.
 Se usan Locks para manejar los recursos compartidos entre hilos.
 
 ### **Tecnologías**
-Python
-OpenCV
-MediaPipe
-Streamlit
-Threading / Locks
-Docker
+- Python
+- OpenCV
+- MediaPipe
+- Streamlit
+- Threading / Locks
+- Docker
 
 ### **Ejecución local**
 ```
