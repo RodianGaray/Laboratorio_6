@@ -1,4 +1,4 @@
-# Proyecto Final: Implementación de Hilos en Python (Multithreading + Docker + Streamlit + MediaPipe)
+# Laboratorio 6
 
 Este repositorio contiene **tres ejercicios prácticos** que demuestran el uso de **hilos (multithreading)** en Python, aplicados a contextos de **análisis de texto**, **videojuegos 2D**, y **visión por computadora**.  
 Cada punto incluye código funcional, manejo de sincronización, e integración con **Docker**.
