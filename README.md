@@ -33,8 +33,12 @@ docker build -t sentiment-threads .
 docker run -p 8501:8501 sentiment-threads
 ```
 ### **Vista previa de la aplicación**
-(Inserta aquí una captura de pantalla de tu Streamlit app)
-
+![Laboratorio_6](3.png)  
+![Laboratorio_6](4.png)  
+![Laboratorio_6](5.png)  
+![Laboratorio_6](6.png)
+![Laboratorio_6](7.png)  
+![Laboratorio_6](8.png)  
 
 ## **Segundo Punto: Desarrollo de Juego 2D Tipo Mario Bros Implementando Hilos**
 ### **Objetivo**
@@ -70,7 +74,9 @@ docker build -t platform-threads .
 docker run --rm -it platform-threads
 ```
 ### *Vista previa del juego*
-(Inserta aquí una captura de pantalla del juego en ejecución)
+![Laboratorio_6](1.png)  
+![Laboratorio_6](2.png)  
+  
 
 
 ## Tercer Punto: Detección de Gestos de Mano Usando MediaPipe e Hilos
@@ -101,11 +107,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ### **Ejecución con Docker**
-(Debe habilitarse el acceso a la cámara en el contenedor, por ejemplo con --device=/dev/video0 en Linux.)
 
 ```
 docker build -t hand-gestures .
 docker run --device=/dev/video0 -p 8501:8501 hand-gestures
 ```
 ### **Vista previa del detector de gestos**
-(Inserta aquí una captura mostrando la detección de manos con puntos y líneas)
+![Laboratorio_6](9.png)  
+![Laboratorio_6](10.png)  
