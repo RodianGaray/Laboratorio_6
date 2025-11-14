@@ -113,5 +113,7 @@ docker build -t hand-gestures .
 docker run --device=/dev/video0 -p 8501:8501 hand-gestures
 ```
 ### **Vista previa del detector de gestos**
-![Laboratorio_6](9.png)  
+ #### Inicio para activar camara 
 ![Laboratorio_6](10.png)  
+#### Deteccion activada
+![Laboratorio_6](9.png) 
